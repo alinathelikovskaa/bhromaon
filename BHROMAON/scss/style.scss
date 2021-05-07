@@ -1,0 +1,448 @@
+@import "fonts";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.btn{
+    width: 10vw;
+    max-width: 225px;
+    padding: 15px 0px;
+    border: none;
+    outline: none;
+    align-content: center;
+    text-transform: uppercase;
+    color: #fff;
+    background: linear-gradient(45deg, rgb(73,107,254) 36%, rgb(84,116,253) 27%);
+}
+.btn:hover{
+    transform: scale(1.1 , 1.1);
+}
+.title{
+    font-family:'Regular' ;
+    color: #fff;
+}
+.title_h2{
+    font-family: 'Light';
+    color: #fff;
+}
+.container{
+    text-align: center;
+    padding: 80px 100px;
+}
+body{
+    padding: 15px;
+}
+.bhromaon__title{
+    font-size: 5vw;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    font-family: 'Bold';
+}
+.bhromaon{        
+    background-image: url(../img/bhromaon_background.png);
+    background-size: cover;
+    height: 100%;
+    padding: 10%;
+     &__container {
+        text-align: center;
+         margin: 0 auto;
+         height: 300px ;
+         position: relative;
+    }
+    &__text{
+        font-family: 'Light' ;
+        color: #fff;
+        letter-spacing: 7px;
+        font-size: 1.5vw;
+    }
+
+    &__information{
+        margin-top: 30px;
+    }
+    &__email{
+        font-family: 'Light';
+        letter-spacing: 3px;
+        padding: 17px ;
+        text-align: center;
+        width: 50%;
+    }
+    &__button{
+        color: #fff;
+        border: none;
+        padding:18.5px 40px;
+        background-color: #5474fd;
+    }
+    &__scroll{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 45%;
+    }
+.scroll{
+    color: #fff;
+    font-family: 'Light';
+    text-decoration: none;
+    &__img{
+        margin: 0 auto;
+        width: 27%;
+    }
+}
+}
+.nav{
+    background-color: #5474fd;
+    &__container{
+        width: auto;
+        text-align: center;
+        padding: 20px 100px;
+        display: flex;
+        flex-direction: row;
+    justify-content: space-between;
+    }
+    &__title{
+        font-size: 2vw;
+    }
+    &__link{
+        width: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+.link__block{
+    width: auto;
+}
+.link__text{
+    font-size: 1vw;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 20px;
+    color: #fff;
+    font-family: 'Light';
+}
+.choose{
+    background-image: url(../img/choose__background.png);
+    background-size: cover;
+    height: 100%;
+    &__container{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__discription{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: start;
+        margin-right: 28px;
+        max-width: 500px;
+    }
+    &__title{
+        font-size: 2vw;
+    }
+    &__text{
+        font-family: 'Light';
+        color: #fff;
+        line-height: 2;
+        font-size: 1vw;
+        margin-top: 30px;
+    }
+    &__button{
+        margin-top: 30px;
+    }
+}
+.choose__picture{
+    width: 50%;
+}
+.picture__forest{
+    display: flex;
+    justify-content: flex-end;
+}
+.search{
+    background-color: #333333;
+    &__container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    &__discription{
+        text-align: center;
+        display: flex;
+        flex-direction:column;
+    }
+    &__img{
+        width: 30%;
+        margin-bottom: 20px;
+    }
+    &__title{
+        font-family:'Light';
+        font-size: 2vw;
+        color: #fff;
+    }
+    &__title:hover{
+        transform: scale(1.1 , 1.1);
+    }
+}
+.spain{ 
+    &__block{
+        background-color: black;
+        opacity: 0.8;
+        width: 45%;
+        padding: 50px 30px;
+        text-align: start;
+    }
+    &__block:hover{
+        transform: scale(1.1 , 1.1);
+    }
+    &__spain{
+        font-family: 'Light';
+        color: #fff;
+    }
+    &__title{
+        margin-top: 10px;
+        font-family:'Light';
+        font-size: 2vw;
+        color: #fff;
+    }
+    &__text{
+        font-family: 'Light';
+        color: #fff;
+        line-height: 2;
+        font-size: 0.9vw;
+        margin: 30px 0px;
+        
+    }
+}
+.container_start{
+    display: flex;
+    justify-content: flex-start;
+}
+.container_end{
+    display: flex;
+    justify-content: flex-end;
+}
+.spain_house{
+    background-image: url(../img/spain_house_background.png);
+}
+.spain_sea{
+    background-image: url(../img/spain_sea_background.png);
+}
+.tourist{
+    background-image: url(../img/what_background.png);
+}
+.tourist__block{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.block__information{
+    background-color: rgb(27, 27, 27);
+    opacity: 0.8;
+    padding: 30px;
+    text-align: left;
+}
+.information__text{
+    font-family: 'Light';
+    color: #fff;
+    line-height: 2;
+    font-size: 0.9vw;
+    margin-top: 20px;
+}
+.footer{
+    padding: 60px;
+    background-color: #222222;
+    &__container{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    &__icon{
+        margin-top: 20px;
+    }
+    &__text{
+        color: #fff;
+        font-family: 'Light';
+        font-size: 1vw;
+    }
+    &__title{
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .choose__container{
+    flex-direction: column;
+    justify-content: center;
+    } 
+    .picture__forest{
+        display: block
+    }
+    .spain_container{
+        justify-content: center;
+    }
+    .tourist__block{
+        flex-direction: column;
+    }
+    .block__information{
+    text-align: center;
+    width: 80% ;
+    margin: 0 auto;
+    }
+    .tourist__image{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .choose__container{
+    flex-direction: column;
+    justify-content: center;
+    } 
+    .picture__forest{
+        display: block
+    }
+    .spain_container{
+        justify-content: center;
+    }
+    .tourist__block{
+        flex-direction: column;
+    }
+    .block__information{
+        text-align: center;
+        width: 80% ;
+        margin: 0 auto;
+    }
+    .tourist__image{
+        width: 80%;
+    }
+}
+@media screen and (max-width:992px) {
+    .choose__container{
+    flex-direction: column;
+    justify-content: center;
+    } 
+    .picture__forest{
+        display: block
+    }
+    .spain_container{
+        justify-content: center;
+    }
+    .tourist__block{
+        flex-direction: column;
+    }
+    .block__information{
+        text-align: center;
+        width: 80% ;
+        margin: 0 auto;
+    }
+    .tourist__image{
+        width: 80%;
+    }
+}
+ 
+@media screen and (max-width: 576px) {
+.btn{
+    width: auto;   
+}
+.picture__lake_img{
+    width: 80%;
+}
+.picture__forest_img{
+    width: 80%;
+}
+.picture__forest{
+    margin-top:10px;
+    width: 100%;
+    justify-content: center;
+}
+.picture__lake{
+    margin-top:10px;
+    width: 100%;
+    justify-content: center;
+}
+.choose__picture{
+    width: 100%;
+    justify-content: center;
+}
+}
+@media screen and (max-width: 768px) {
+    .btn{
+        width: auto;   
+    }
+    .picture__lake_img{
+        width: 80%;
+    }
+    .picture__forest_img{
+        width: 80%;
+    }
+    .picture__forest{
+        margin-top:10px;
+        width: 100%;
+        justify-content: center;
+    }
+    .picture__lake{
+        margin-top:10px;
+        width: 100%;
+        justify-content: center;
+    }
+    .choose__picture{
+        width: 100%;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:992px) {
+    .btn{
+        width: auto;   
+    }
+    .picture__lake_img{
+        width: 80%;
+    }
+    .picture__forest_img{
+        width: 80%;
+    }
+    .picture__forest{
+        margin-top:10px;
+        width: 100%;
+        justify-content: center;
+    }
+    .picture__lake{
+        margin-top:10px;
+        width: 100%;
+        justify-content: center;
+    }
+    .choose__picture{
+        width: 100%;
+        justify-content: center;
+    }
+} 
+@media screen and (max-width: 576px){
+    .link__text{
+        font-size: 0.7vw;
+    }
+    .link__text,
+    .spain__text,
+    .information__text{
+        font-size: 1.5vw;
+    }
+}
+@media screen and (max-width: 768px){
+    .link__text{
+        font-size: 0.8vw;
+    }
+    .link__text,
+    .spain__text,
+    .information__text{
+        font-size: 1.5vw;
+    }
+}
+@media screen and (max-width: 992px){
+    .link__text{
+        font-size: 0.9vw;
+    }
+    .link__text,
+    .spain__text,
+    .information__text{
+        font-size: 1.5vw;
+    }
+}
